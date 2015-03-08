@@ -1,0 +1,22 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: first_class_mail_type
+    category: CDev\USPS
+    value: 'PARCEL'
+    translations:
+      - code: en
+        option_name: First-Class mail type
+  - name: use_rate_type
+    category: CDev\USPS
+    value: 'Rate'
+    translations:
+      - code: en
+        option_name: Rate type to use

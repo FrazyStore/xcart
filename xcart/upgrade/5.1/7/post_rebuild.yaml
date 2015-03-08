@@ -1,0 +1,15 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Update charset options for import/export
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Order has failed", translations: [{ code: en, label: "Order {{order_number}} has declined" }] }
+  - { name: "Your order has failed", translations: [{ code: en, label: "The status of your order #{{id}} has been changed to \"{{status}}\". This could be for one of the following reasons:<br />\n1) The order was declined by the store administrator.<br />\n2) The payment could not be processed at the time of order placement.<br />\nFor more information, please contact the store administrator." }] }
+  - { name: "Price asc", translations: [{ code: en, label: "By Price - cheapest first" }] }
+  - { name: "Price desc", translations: [{ code: en, label: "By Price - cheapest last" }] }
+

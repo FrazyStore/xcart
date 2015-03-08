@@ -1,0 +1,17 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+ - { name: 'FREE', translations: [{ code: en, label: 'Free' }, { code: ru, label: 'БЕСПЛАТНО' }] }
+ - { name: 'Free shipping', translations: [{ code: en, label: 'Free shipping' }, { code: ru, label: 'Бесплатная доставка' }] }
+ - { name: 'FREE SHIPPING', translations: [{ code: en, label: 'FREE SHIPPING' }, { code: ru, label: 'БЕСПЛАТНАЯ ДОСТАВКА' }] }
+ - { name: 'Wrong free shipping format', translations: [{ code: en, label: 'Wrong free shipping format' }, { code: ru, label: 'Неправильный формат значения поля "Бесплатная доставка"' }] }
+ - { name: 'Free shipping tooltip text', translations: [{ code: en, label: 'This shipping method becomes available on checkout, only if all the products in the cart are marked as "Free shipping" and there are no other shipping methods available.' }, { code: ru, label: 'Этот способ доставки становится доступным только если все продукты в корзине помечены как "Бесплатная доставка", и нет других доступных методов доставки.' }] }
+XLite\Model\Shipping\Method:
+  - { processor: offline, enabled: true, free: true, position: 10000, translations: [{ code: en, name: Free shipping }, { code: ru, name: Бесплатная доставка }], shipping_markups: [{ zone: { zone_name: 'All Addresses (default zone)' }, min_weight: 0, max_weight: 999999, min_total: 0, max_total: 999999, min_items: 0, max_items: 999999, markup_flat: 0, markup_percent: 0, markup_per_item: 0, markup_per_weight: 0 }] }

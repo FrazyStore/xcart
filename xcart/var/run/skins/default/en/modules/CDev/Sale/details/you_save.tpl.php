@@ -1,0 +1,1 @@
+, <?php echo func_htmlspecialchars($this->t('you save')); ?> <span class="you-save"><?php echo func_htmlspecialchars($this->formatPrice($this->getSalePriceDifference(),$this->get('null'),1)); ?></span>

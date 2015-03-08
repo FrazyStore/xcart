@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
+	 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#F29221" d="M17.097,6.012H82.03c6.51,0,11.788,5.278,11.788,11.788v64.918
+	c0,6.511-5.278,11.788-11.788,11.788H17.097c-6.51,0-11.788-5.277-11.788-11.788V17.801C5.309,11.291,10.586,6.012,17.097,6.012z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M72.965,49.025c-1.338,1.339-3.948,3.952-6.066,6.072
+	c2.113,2.115,4.706,4.712,6.039,6.045c0.519,0.52,0.882,1.304,0.882,2.045c0,3.221,0,7.556,0,10.674
+	c0,1.207-0.255,1.368-1.456,1.368c-4.153,0-4.191-0.003-5.062-0.003c0-2.067,0-5.12,0-8.116c0-1.038-0.163-1.518-0.874-2.24
+	c-1.144-1.162-4.354-4.403-5.518-5.586c-0.634-0.644-1.559-0.929-2.364-0.929c-4.011,0-15.196,0-17.959,0
+	c-0.804,0-1.729,0.285-2.364,0.929c-1.164,1.183-4.374,4.423-5.518,5.586c-0.71,0.722-0.874,1.201-0.874,2.24
+	c0,2.605,0,4.438,0,6.645c0,1.18-0.315,1.494-1.517,1.494c-0.653,0-0.88,0.002-5.045,0.002c0-2.496,0-8.15,0-12.064
+	c0-0.741,0.363-1.525,0.882-2.045c1.337-1.338,3.944-3.948,6.06-6.067c-2.113-2.115-4.71-4.715-6.044-6.05
+	c-0.519-0.52-0.882-1.305-0.882-2.045c0-3.915,0-19.167,0-21.663c5.846,0,5.574,0.003,6.549,0.003c0,2.067,0,14.732,0,17.728
+	c0,1.038,0.163,1.518,0.874,2.239c1.144,1.162,4.353,4.403,5.518,5.585c0.634,0.644,1.559,0.929,2.364,0.929
+	c3.985,0,15.089,0,17.953,0c0.804,0,1.729-0.285,2.364-0.929c1.164-1.183,4.374-4.423,5.518-5.585
+	c0.711-0.721,0.874-1.201,0.874-2.239c0-2.996,0-15.661,0-17.728c0.975,0,0.703-0.003,6.549-0.003c0,2.497,0,17.749,0,21.663
+	C73.848,47.72,73.485,48.504,72.965,49.025z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M38.675,37.671h4.852v4.832h-4.852V37.671z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M56.598,37.671h4.852v4.832h-4.852V37.671z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M38.675,28.753h4.852v4.831h-4.852V28.753z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M56.619,28.753h4.852v4.831h-4.852V28.753z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M47.658,37.692h4.852v4.832h-4.852V37.692z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M47.658,28.753h4.852v4.831h-4.852V28.753z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#B14C26" d="M32.161,80.096c-2.138,0-3.926-1.486-4.397-3.481h3.583
+	c1.013,0,1.835-0.821,1.835-1.835v-3.61c2.005,0.463,3.502,2.256,3.502,4.403C36.684,78.071,34.659,80.096,32.161,80.096z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#B14C26" d="M74.197,80.096c-2.131,0-3.912-1.476-4.392-3.459h3.577
+	c1.014,0,1.835-0.821,1.835-1.835V71.17c2.006,0.463,3.502,2.256,3.502,4.403C78.72,78.071,76.695,80.096,74.197,80.096z"/>
+</svg>

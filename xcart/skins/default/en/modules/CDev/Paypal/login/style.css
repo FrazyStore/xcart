@@ -1,0 +1,83 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Paypal style
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+.paypal-login.icon {
+  display: inline-block;
+}
+
+.paypal-login.icon .fa {
+  font-size: 16px;
+  color: #fff;
+  background-color: #00A1FF;
+  padding: 3px 2px 1px 2px;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.paypal-login.button {
+  display: inline-block;
+  background: linear-gradient(#007AC2, #00A1FF);
+  border-radius: 3px;
+  border: 1px solid #007AC2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.paypal-login.button .fa {
+  font-size: 19px;
+  color: #fff;
+  margin-left: 8px;
+  margin-right: 2px;
+  margin-top: 5px;
+  width: 24px;
+  height: 24px;
+  vertical-align: -4px;
+}
+
+.paypal-login.button .fa {
+  vertical-align: -3px;
+}
+
+.paypal-login.button .provider-name {
+  display: inline-block;
+  border-left: solid 1px #007AC2;
+  height: 19px;
+  padding: 0 15px;
+  color: #fff;
+}
+
+.paypal-login-note {
+  font-size: 17px;
+  margin: 0 0 10px 0;
+}
+
+.signin-login-wrapper .paypal-login-note {
+  font-size: 12px;
+  margin: 22px 0 18px 0;
+  text-align: center;
+}
+
+.paypal-login-container {
+  clear: both;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+ul.paypal-login {
+  display: inline-block;
+  padding: 5px 7px 5px 4px;
+  margin-bottom: 15px;
+}
+
+.checkout-block ul.paypal-login {
+  margin: -10px 0 20px;
+  padding: 5px 4px 5px 4px;
+}

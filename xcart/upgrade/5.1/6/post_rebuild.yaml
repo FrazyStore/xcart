@@ -1,0 +1,27 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Update charset options for import/export
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Price asc", translations: [{ code: en, label: "By Price - the cheaper first" }] }
+  - { name: "Price desc", translations: [{ code: en, label: "By Price - the cheaper last" }] }
+  - { name: "Name asc", translations: [{ code: en, label: "By Name - A-Z" }] }
+  - { name: "Name desc", translations: [{ code: en, label: "By Name - Z-A" }] }
+  - { name: "No Phar extension for PHP error", translations: [{ code: en, label: "PHP <a href='//php.net/phar' target='_blank'>.phar</b> extension is not enabled on your server. Here is a <a href='http://kb.x-cart.com/pages/viewpage.action?pageId=7504332' target='_blank'>manual</a> on setting up the extension." }] }
+  - { name: "No Curl extension for PHP error", translations: [{ code: en, label: "PHP cURL extension is not enabled on your server. Here is a <a href='http://kb.x-cart.com/pages/viewpage.action?pageId=7504334' target='_blank'>manual</a> on setting up the extension." }] }
+  - { name: "No OpenSSL extension for PHP error", translations: [{ code: en, label: "PHP openSSL extension is not enabled on your server. There is a <a href='http://kb.x-cart.com/pages/viewpage.action?pageId=7504337' target='_blank'>manual</a> on setting up the extension." }] }
+  - { name: "SSL Error", translations: [{ code: en, label: "Your server does not have an SSL certificate. Ask your hosting team to install an SSL certificate or create a self-signed one according to this <a href='http://kb.x-cart.com/pages/viewpreviousversions.action?pageId=7504339' target='_blank'>guide</a>." }] }
+
+
+XLite\Model\Config:
+  - { name: weight_trailing_zeroes, category: Units, type: checkbox, orderby: 621, value: N, translations: [{ code: en, option_name: 'Hide trailing zeros in fractional part' }] }
+  - { name: weight_format, category: Units, type: 'XLite\View\FormField\Select\FloatFormat', orderby: 622, value: '|.', translations: [{ code: en, option_name: 'Weight format' }] }
+  - { name: show_out_of_stock_products, category: General, type: 'XLite\View\FormField\Select\ShowOutOfStockProducts', orderby: 200, value: 'everywhere', translations: [{ code: en, option_name: 'How to show out of stock products' }] }
+
+XLite\Model\AddressField:
+  - { serviceName: type, additional: false, required: false, translations: [{ code: en, name: Address type }], schemaClass: \XLite\View\FormField\Select\AddressType, viewGetterName: type_name, enabled: false }
